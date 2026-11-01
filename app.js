@@ -711,7 +711,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   );
 
   $('refreshBtn')?.addEventListener('click', refreshAll);
-  $('devBtn')?.addEventListener('click', () => { haptic([32]); window.open('https://github.com/zenlixir', '_blank'); });
+  $('devBtn')?.addEventListener('click', () => { haptic([32]); window.open('https://github.com/rynekryz', '_blank'); });
   $('addMedBtn')?.addEventListener('click', () => { haptic([32]); openScheduleModal(null); });
   $('addMedBtnSettings')?.addEventListener('click', () => { haptic([32]); openScheduleModal(null); });
   $('modalSaveBtn')?.addEventListener('click', saveSchedule);
